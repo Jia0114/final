@@ -1,0 +1,69 @@
+*{
+  /*border:solid 1px black;*/
+  font-family: 'Noto Sans TC', sans-serif;
+}
+.card-text{
+  font-size:10px;
+}
+.nav-link{
+  margin-left: 20px;
+}
+.container-fluid{
+  padding-top:120px;
+  text-align:center;
+}
+.card{
+  margin-top:15px;
+}
+.card-text{
+  font-size:20px;
+}
+.a{
+  margin-top:10px;
+  margin-left:80px;
+  margin-right:80px;
+  padding-top:5px;
+  padding-bottom:5px;
+  background:#123456;
+  color:white;
+}
+.card{
+  margin-top:-1px;
+  
+}
+.b{
+  margin-top:50px;
+  margin-bottom:25px;
+}
+.toTop-arrow {
+	width: 2.5rem;
+	height: 2.5rem;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	border-radius: 33%;
+	opacity: 0.6;
+	background: #000;
+	cursor: pointer;
+	position:fixed;
+	right: 1rem;
+	bottom: 1rem;
+	display: none;
+}
+.toTop-arrow::before, .toTop-arrow::after {
+	width: 18px;
+	height: 5px;
+	border-radius: 3px;
+	background: #f90;
+	position: absolute;
+	content: "";
+}
+.toTop-arrow::before {
+	transform: rotate(-45deg) translate(0, -50%);
+	left: 0.5rem;
+}
+.toTop-arrow::after {
+	transform: rotate(45deg) translate(0, -50%);
+	right: 0.5rem;
+}
+.toTop-arrow:focus {outline: none;}
